@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "314d58e9-7288-4f8d-bcbf-21128703fae0",
+    "colName": "GMAP",
+    "created": "2023-01-28T15:06:19.127Z",
+    "sortNum": 10000,
+    "folders": []
+  },
+  {
+    "_id": "595e60a2-cc34-453c-b550-52864708b9e3",
+    "colName": "apiGmap",
+    "created": "2023-02-01T17:16:47.044Z",
+    "sortNum": 20000,
+    "folders": []
+  }
+]

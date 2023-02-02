@@ -1,0 +1,160 @@
+[
+  {
+    "_id": "3fc9866e-b505-42f9-be9d-c0e76e1c3ff3",
+    "colId": "314d58e9-7288-4f8d-bcbf-21128703fae0",
+    "containerId": "",
+    "name": "getNearBy",
+    "url": "{{www}}/getnearby",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-01-28T15:06:37.433Z",
+    "modified": "2023-02-01T18:12:00.667Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "latitude",
+          "value": "14.1163815"
+        },
+        {
+          "name": "longitude",
+          "value": "101.7827172"
+        },
+        {
+          "name": "name",
+          "value": "ห้วยขวาง"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c992dff1-36bc-418e-8794-3b7df0df3927",
+    "colId": "595e60a2-cc34-453c-b550-52864708b9e3",
+    "containerId": "",
+    "name": "textsearch",
+    "url": "https://maps.googleapis.com/maps/api/place/textsearch/json?key={{gmapKey}}&query=ห้วยขวางหหห&type=restaurant",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-02-01T17:16:51.141Z",
+    "modified": "2023-02-01T18:11:32.974Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "key",
+        "value": "{{gmapKey}}",
+        "isPath": false
+      },
+      {
+        "name": "query",
+        "value": "ห้วยขวางหหห",
+        "isPath": false
+      },
+      {
+        "name": "type",
+        "value": "restaurant",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "6eb18dc8-a4b5-410e-8355-0e13e38cc96a",
+    "colId": "595e60a2-cc34-453c-b550-52864708b9e3",
+    "containerId": "",
+    "name": "photoRef",
+    "url": "https://maps.googleapis.com/maps/api/place/photo?photoreference=AfLeUgPw6O8FAHM9Qz9_ybi6MQKMpxrxIWNXKNUM9MIJJipQBW7UuxuMdKCAZ_EJ3WEU2mV-1m5VQdhqfYBWd_dkklVdthJKXnKZBowF7MHsdG9QZaCiO2xc2g1_LQ6zrOGA-vJuz5tc9FfZi1OMByFmOFmuBRFHqStmkfKWDXwCrps-l1Ob&sensor=false&maxheight=250&maxwidth=250&key={{gmapKey}}",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-02-01T17:20:17.243Z",
+    "modified": "2023-02-01T17:20:46.652Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "photoreference",
+        "value": "AfLeUgPw6O8FAHM9Qz9_ybi6MQKMpxrxIWNXKNUM9MIJJipQBW7UuxuMdKCAZ_EJ3WEU2mV-1m5VQdhqfYBWd_dkklVdthJKXnKZBowF7MHsdG9QZaCiO2xc2g1_LQ6zrOGA-vJuz5tc9FfZi1OMByFmOFmuBRFHqStmkfKWDXwCrps-l1Ob",
+        "isPath": false
+      },
+      {
+        "name": "sensor",
+        "value": "false",
+        "isPath": false
+      },
+      {
+        "name": "maxheight",
+        "value": "250",
+        "isPath": false
+      },
+      {
+        "name": "maxwidth",
+        "value": "250",
+        "isPath": false
+      },
+      {
+        "name": "key",
+        "value": "{{gmapKey}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "db3c1a4f-2dec-49a6-b63c-0566da8df7ca",
+    "colId": "314d58e9-7288-4f8d-bcbf-21128703fae0",
+    "containerId": "",
+    "name": "searchByText",
+    "url": "{{www}}/searchbyname",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-02-01T17:28:24.554Z",
+    "modified": "2023-02-01T18:14:34.411Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "ห้วยขวาง"
+        },
+        {
+          "name": "latitude",
+          "value": "14.1163815"
+        },
+        {
+          "name": "longitude",
+          "value": "101.7827172"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b3fbc5c5-6697-4fdf-b7b9-8e60d6d2b442",
+    "colId": "314d58e9-7288-4f8d-bcbf-21128703fae0",
+    "containerId": "",
+    "name": "getPlacePhoto",
+    "url": "{{www}}/placephoto",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2023-02-01T17:38:00.640Z",
+    "modified": "2023-02-01T17:40:48.166Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "ref",
+          "value": "AfLeUgPw6O8FAHM9Qz9_ybi6MQKMpxrxIWNXKNUM9MIJJipQBW7UuxuMdKCAZ_EJ3WEU2mV-1m5VQdhqfYBWd_dkklVdthJKXnKZBowF7MHsdG9QZaCiO2xc2g1_LQ6zrOGA-vJuz5tc9FfZi1OMByFmOFmuBRFHqStmkfKWDXwCrps-l1Ob"
+        }
+      ]
+    },
+    "tests": []
+  }
+]

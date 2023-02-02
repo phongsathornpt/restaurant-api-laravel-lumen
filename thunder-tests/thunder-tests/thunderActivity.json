@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "9909e724-8625-477e-b7d5-f83b5094f61e",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=12.6519,102.1182&radius=500&types=food&name=cruise&key=AIzaSyCiJFmXqcdxExkFFWU4lGFxe08isdQ2Vfw",
+    "url": "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=12.6519,102.1182&radius=500&types=food&name=cruise&key=AIzaSyCiJFmXqcdxExkFFWU4lGFxe08isdQ2Vfw",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-01-28T14:59:16.852Z",
+    "modified": "2023-01-28T14:59:16.852Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "location",
+        "value": "12.6519,102.1182",
+        "isPath": false
+      },
+      {
+        "name": "radius",
+        "value": "500",
+        "isPath": false
+      },
+      {
+        "name": "types",
+        "value": "food",
+        "isPath": false
+      },
+      {
+        "name": "name",
+        "value": "cruise",
+        "isPath": false
+      },
+      {
+        "name": "key",
+        "value": "AIzaSyCiJFmXqcdxExkFFWU4lGFxe08isdQ2Vfw",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "d88c11e5-48d9-4c60-b3b6-92798166e828",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=12.6519,102.1182&radius=500&types=food&name&key=AIzaSyCiJFmXqcdxExkFFWU4lGFxe08isdQ2Vfw",
+    "url": "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=12.6519,102.1182&radius=500&types=food&name&key=AIzaSyCiJFmXqcdxExkFFWU4lGFxe08isdQ2Vfw",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-01-28T14:59:23.502Z",
+    "modified": "2023-01-28T14:59:23.502Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "location",
+        "value": "12.6519,102.1182",
+        "isPath": false
+      },
+      {
+        "name": "radius",
+        "value": "500",
+        "isPath": false
+      },
+      {
+        "name": "types",
+        "value": "food",
+        "isPath": false
+      },
+      {
+        "name": "name",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "key",
+        "value": "AIzaSyCiJFmXqcdxExkFFWU4lGFxe08isdQ2Vfw",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]
