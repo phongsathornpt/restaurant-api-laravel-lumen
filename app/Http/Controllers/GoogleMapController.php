@@ -140,7 +140,7 @@ class GoogleMapController extends Controller
                         'business_status' => (string) empty($value->business_status) ? 'UNKNOW' : (string) $value->business_status,
                         'distance' => (float) $this->circle_distance($value->geometry->location->lat, $value->geometry->location->lng, $request->latitude, $request->longitude),
                         'rating' => (float) empty($value->rating) ? '0' : (float) $value->rating,
-                        'img' => empty($value->photos[0]->photo_reference) ? url('/img/gray.png')  : url('/placephoto') . '/' . $value->photos[0]->photo_reference,
+                        'img' => empty($value->photos[0]->photo_reference) ? url('/img/gray.png')  : url('gmap/placephoto') . '/' . $value->photos[0]->photo_reference,
                         'location' => ['latitude' => (float) $value->geometry->location->lat, 'longitude' => (float) $value->geometry->location->lng],
                     ];
                     array_push($listRestaurant, $_tempRestaurant);

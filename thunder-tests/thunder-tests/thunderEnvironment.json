@@ -1,15 +1,15 @@
 [
   {
     "_id": "aa1a1f14-9f33-41d8-95fc-80f1481d4f47",
-    "name": "flyIO ENV",
-    "default": false,
+    "name": "HeroKu ENV",
+    "default": true,
     "sortNum": 10000,
     "created": "2023-02-03T19:04:25.098Z",
     "modified": "2023-02-03T19:04:25.098Z",
     "data": [
       {
         "name": "www",
-        "value": "https://nameless-sun-1381.fly.dev/"
+        "value": "https://restaurant-map-api.herokuapp.com/"
       },
       {
         "name": "gmapKey",
@@ -20,7 +20,7 @@
   {
     "_id": "b533bf1a-d5da-4bf5-8111-c1c123a70232",
     "name": "local ENV",
-    "default": true,
+    "default": false,
     "sortNum": 20000,
     "created": "2023-02-03T19:06:13.154Z",
     "modified": "2023-02-03T19:06:13.154Z",
