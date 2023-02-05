@@ -4,11 +4,11 @@
     "colId": "314d58e9-7288-4f8d-bcbf-21128703fae0",
     "containerId": "",
     "name": "getNearBy",
-    "url": "{{www}}/getnearby",
+    "url": "{{www}}/gmap/getnearby",
     "method": "POST",
     "sortNum": 20000,
     "created": "2023-01-28T15:06:37.433Z",
-    "modified": "2023-02-01T18:12:00.667Z",
+    "modified": "2023-02-02T16:14:04.404Z",
     "headers": [],
     "params": [],
     "body": {
@@ -106,11 +106,11 @@
     "colId": "314d58e9-7288-4f8d-bcbf-21128703fae0",
     "containerId": "",
     "name": "searchByText",
-    "url": "{{www}}/searchbyname",
+    "url": "{{www}}/gmap/searchbyname",
     "method": "POST",
     "sortNum": 30000,
     "created": "2023-02-01T17:28:24.554Z",
-    "modified": "2023-02-01T18:14:34.411Z",
+    "modified": "2023-02-02T16:14:10.887Z",
     "headers": [],
     "params": [],
     "body": {
@@ -128,30 +128,6 @@
         {
           "name": "longitude",
           "value": "101.7827172"
-        }
-      ]
-    },
-    "tests": []
-  },
-  {
-    "_id": "b3fbc5c5-6697-4fdf-b7b9-8e60d6d2b442",
-    "colId": "314d58e9-7288-4f8d-bcbf-21128703fae0",
-    "containerId": "",
-    "name": "getPlacePhoto",
-    "url": "{{www}}/placephoto",
-    "method": "POST",
-    "sortNum": 40000,
-    "created": "2023-02-01T17:38:00.640Z",
-    "modified": "2023-02-01T17:40:48.166Z",
-    "headers": [],
-    "params": [],
-    "body": {
-      "type": "formdata",
-      "raw": "",
-      "form": [
-        {
-          "name": "ref",
-          "value": "AfLeUgPw6O8FAHM9Qz9_ybi6MQKMpxrxIWNXKNUM9MIJJipQBW7UuxuMdKCAZ_EJ3WEU2mV-1m5VQdhqfYBWd_dkklVdthJKXnKZBowF7MHsdG9QZaCiO2xc2g1_LQ6zrOGA-vJuz5tc9FfZi1OMByFmOFmuBRFHqStmkfKWDXwCrps-l1Ob"
         }
       ]
     },

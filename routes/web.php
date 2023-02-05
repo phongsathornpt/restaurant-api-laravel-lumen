@@ -17,7 +17,8 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/testgmap', 'GoogleMapController@testGoogleMap');
-$router->post('/getnearby', 'GoogleMapController@getNearByByLocation');
-$router->post('/searchbyname', 'GoogleMapController@searchByName');
-$router->get('/placephoto/{ref}', 'GoogleMapController@encodeImagesFromUrlToBase64');
+$router->group(['prefix' => 'gmap'], function () use ($router) {
+    $router->post('/getnearby', 'GoogleMapController@getNearByByLocation');
+    $router->post('/searchbyname', 'GoogleMapController@searchByName');
+    $router->get('/placephoto/{ref}', 'GoogleMapController@encodeImagesFromUrlToBase64');
+});
