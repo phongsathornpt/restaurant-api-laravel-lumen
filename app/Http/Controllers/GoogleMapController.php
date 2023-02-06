@@ -110,9 +110,9 @@ class GoogleMapController extends Controller
                 }
                 Cache::add(implode(" ", $queryParametter), $listRestaurant, Carbon::now()->addMinute(1));
             }
-            return response()->json(['responseCode' => '200', 'responseMsg' => 'success', 'data' => $listRestaurant]);
+            return response()->json(['responseCode' => 200, 'responseMsg' => 'success', 'data' => $listRestaurant]);
         } catch (Exception $e) {
-            return response()->json(['responseCode' => '400', 'responseMsg' => $e->getMessage(), 'data' => null]);
+            return response()->json(['responseCode' => 400, 'responseMsg' => $e->getMessage(), 'data' => []]);
         }
     }
 
@@ -147,9 +147,9 @@ class GoogleMapController extends Controller
                 }
                 Cache::add(implode(" ", $queryParametter), $listRestaurant, Carbon::now()->addMinute(1));
             }
-            return response()->json(['responseCode' => '200', 'responseMsg' => 'success', 'data' => $listRestaurant]);
+            return response()->json(['responseCode' => 200, 'responseMsg' => 'success', 'data' => $listRestaurant]);
         } catch (Exception $e) {
-            return response()->json(['responseCode' => '400', 'responseMsg' => $e->getMessage(), 'data' => null]);
+            return response()->json(['responseCode' => 400, 'responseMsg' => $e->getMessage(), 'data' => []]);
         }
     }
 }
